@@ -42,9 +42,20 @@ This is a lightweight clinical monitoring system built with Angular 19 and .NET 
 - **PostgreSQL 17**
 ---
 
-## 🧪 Bonus Implementations (+1)
+## 🧪 Screenshots
 
-- ✅ Swagger API documentation (`/swagger`)
-- ✅ Mock AI Prediction Endpoint
-- ✅ Modular code architecture
+- **Login Page**
+<img width="422" alt="LoginPage" src="https://github.com/user-attachments/assets/a838d151-2f7a-46d6-8cd8-33a3c20d7f04" />
+
+- **Register Page**
+<img width="473" alt="RegisterPage" src="https://github.com/user-attachments/assets/c43c8144-3a44-4da8-b148-b63ba0cb1daf" />
+
+- **Patients Page**
+<img width="737" alt="PatientPage" src="https://github.com/user-attachments/assets/21dd7690-8d77-46c6-8276-0a28329cf46c" />
+
+- **Swagger**
+- <img width="1137" alt="SwaggerPage" src="https://github.com/user-attachments/assets/eccc520e-b5bf-4d7b-8665-0a335f2a7536" />
+
+
+---
 
