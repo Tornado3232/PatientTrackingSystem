@@ -1,0 +1,30 @@
+<div class="bg-primary text-white text-center py-5 rounded-3 shadow-sm">
+  <h1 class="display-6 fw-bold">Patient Details</h1>
+</div>
+
+<div class="row mt-5 g-4">
+  <!-- Form -->
+  <div class="col-md-6">
+    <app-patient-detail-form></app-patient-detail-form>
+  </div>
+
+  <!-- List -->
+  <div class="col-md-6">
+    <ul class="list-group shadow-sm">
+      <li class="list-group-item d-flex justify-content-between
+          align-items-start p-4 border rounded-4 mb-3 bg-light"
+          *ngFor="let patient of service.list">
+
+        <div class="flex-grow-1 mouse-hover" (click)="populateForm(patient)">
+          <h5 class="mb-1">{{patient.name}} {{patient.surname}}</h5>
+          <small class="text-muted">{{patient.birthdate}}</small>
+        </div>
+
+        <span class="text-danger align-self-center ms-3">
+          <i class="fa-solid fa-trash-can fa-lg mouse-hover"
+             (click)="onDelete(patient.id)"></i>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
